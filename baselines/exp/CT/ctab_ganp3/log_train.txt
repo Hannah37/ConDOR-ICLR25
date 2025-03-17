@@ -1,0 +1,3 @@
+{'lr': 0.001, 'epochs': 5000, 'class_dim': [64, 256, 256, 256, 256, 512], 'batch_size': 348}
+Finished training in 1398.8193101882935  seconds.
+Elapsed time: 0:23:19

@@ -1,0 +1,11 @@
+{
+    "name": "Tau",
+    "id": "Tau--default",
+    "task_type": "multiclass",
+    "n_num_features": 148,
+    "n_cat_features": 2,
+    "train_size": 372,
+    "val_size": 91,
+    "test_size": 91,
+    "n_classes": 5
+}

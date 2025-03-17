@@ -1,0 +1,11 @@
+{
+    "name": "FDG",
+    "id": "FDG--default",
+    "task_type": "multiclass",
+    "n_num_features": 148,
+    "n_cat_features": 1,
+    "train_size": 1850,
+    "val_size": 460,
+    "test_size": 460,
+    "n_classes": 5
+}

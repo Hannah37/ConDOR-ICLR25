@@ -1,0 +1,5 @@
+cuda:0
+Remain 372 Samples being generating
+cuda:0
+Remain 91 Samples being generating
+Elapsed time: 0:00:09

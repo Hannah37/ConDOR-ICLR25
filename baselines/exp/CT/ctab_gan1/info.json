@@ -1,0 +1,11 @@
+{
+    "name": "CT",
+    "id": "CT--default",
+    "task_type": "multiclass",
+    "n_num_features": 148,
+    "n_cat_features": 1,
+    "train_size": 348,
+    "val_size": 83,
+    "test_size": 83,
+    "n_classes": 5
+}

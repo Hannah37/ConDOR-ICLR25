@@ -1,0 +1,3 @@
+Remain 1850 Samples being generating
+Remain 460 Samples being generating
+Elapsed time: 0:00:42

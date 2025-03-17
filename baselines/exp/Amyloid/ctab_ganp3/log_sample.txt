@@ -1,0 +1,47 @@
+cuda:0
+Remain 1584 Samples being generating
+54000
+Remain 31 Samples being generating
+54000
+Remain 31 Samples being generating
+54000
+Remain 31 Samples being generating
+54000
+Remain 31 Samples being generating
+54000
+Remain 31 Samples being generating
+54000
+Remain 31 Samples being generating
+54000
+Remain 31 Samples being generating
+54000
+Remain 31 Samples being generating
+54000
+Remain 31 Samples being generating
+54000
+Remain 31 Samples being generating
+54000
+cuda:0
+Remain 413 Samples being generating
+54000
+Remain 6 Samples being generating
+54000
+Remain 6 Samples being generating
+54000
+Remain 6 Samples being generating
+54000
+Remain 6 Samples being generating
+54000
+Remain 6 Samples being generating
+54000
+Remain 6 Samples being generating
+54000
+Remain 6 Samples being generating
+54000
+Remain 6 Samples being generating
+54000
+Remain 6 Samples being generating
+54000
+Remain 6 Samples being generating
+54000
+Elapsed time: 0:03:31

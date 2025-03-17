@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "C:\Users\home\OneDrive - University of North Carolina at Chapel Hill\ICLR25\tab-ddpm\pipeline_iclr25_hyuna.py", line 5, in <module>
+    from scripts.train import train
+  File "C:\Users\home\OneDrive - University of North Carolina at Chapel Hill\ICLR25\tab-ddpm\scripts\train.py", line 2, in <module>
+    import torch
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\__init__.py", line 196, in <module>
+    _load_global_deps()
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\__init__.py", line 142, in _load_global_deps
+    if platform.system() == 'Windows' or sys.executable == 'torch_deploy':
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\platform.py", line 926, in system
+    return uname().system
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\platform.py", line 861, in uname
+    release, version, csd, ptype = win32_ver()
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\platform.py", line 368, in win32_ver
+    major, minor, build = map(int, _syscmd_ver()[2].split('.'))
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\platform.py", line 282, in _syscmd_ver
+    info = subprocess.check_output(cmd,
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\subprocess.py", line 424, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\subprocess.py", line 829, in __init__
+    errread, errwrite) = self._get_handles(stdin, stdout, stderr)
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\subprocess.py", line 1305, in _get_handles
+    errwrite = self._make_inheritable(errwrite)
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\subprocess.py", line 1314, in _make_inheritable
+    h = _winapi.DuplicateHandle(
+KeyboardInterrupt
+^C

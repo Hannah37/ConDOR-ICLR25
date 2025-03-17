@@ -1,0 +1,51 @@
+Traceback (most recent call last):
+  File "C:\Users\home\OneDrive - University of North Carolina at Chapel Hill\ICLR25\tab-ddpm\pipeline_iclr25_hyuna.py", line 5, in <module>
+    from scripts.train import train
+  File "C:\Users\home\OneDrive - University of North Carolina at Chapel Hill\ICLR25\tab-ddpm\scripts\train.py", line 2, in <module>
+    import torch
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\__init__.py", line 29, in <module>
+    from .torch_version import __version__ as __version__
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\torch_version.py", line 3, in <module>
+    from pkg_resources import packaging  # type: ignore[attr-defined]
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\pkg_resources\__init__.py", line 95, in <module>
+    import packaging.specifiers
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\packaging\specifiers.py", line 99, in <module>
+    class Specifier(BaseSpecifier):
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\packaging\specifiers.py", line 206, in Specifier
+    _regex = re.compile(
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\re.py", line 252, in compile
+    return _compile(pattern, flags)
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 834, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 834, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 834, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 834, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 834, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 532, in _parse
+    here = source.tell() - 1
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\sre_parse.py", line 287, in tell
+    return self.index - len(self.next or '')
+KeyboardInterrupt
+^C

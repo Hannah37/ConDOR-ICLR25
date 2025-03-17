@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "C:\Users\home\OneDrive - University of North Carolina at Chapel Hill\ICLR25\tab-ddpm\pipeline_iclr25_hyuna.py", line 5, in <module>
+    from scripts.train import train
+  File "C:\Users\home\OneDrive - University of North Carolina at Chapel Hill\ICLR25\tab-ddpm\scripts\train.py", line 2, in <module>
+    import torch
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\__init__.py", line 721, in <module>
+    import torch.utils.data
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\utils\data\__init__.py", line 38, in <module>
+    from torch.utils.data.dataloader_experimental import DataLoader2
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\utils\data\dataloader_experimental.py", line 10, in <module>
+    from torch.utils.data import DataLoader, IterDataPipe, communication
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\utils\data\communication\__init__.py", line 3, in <module>
+    from . import messages
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 941, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1039, in get_data
+KeyboardInterrupt
+^C

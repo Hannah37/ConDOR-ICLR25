@@ -1,0 +1,66 @@
+[34]
+182
+{'is_y_cond': True, 'd_in': 182, 'num_classes': 5, 'rtdl_params': {'d_layers': [256, 128], 'dropout': 0.0}}
+mlp
+Step 500/30000 MLoss: 2.995 GLoss: 1.0264 Sum: 4.0214
+Step 1000/30000 MLoss: 2.4693 GLoss: 1.0103 Sum: 3.4796
+Step 1500/30000 MLoss: 2.0569 GLoss: 0.9992 Sum: 3.0561000000000003
+Step 2000/30000 MLoss: 1.7506 GLoss: 0.9881 Sum: 2.7386999999999997
+Step 2500/30000 MLoss: 1.4823 GLoss: 0.9836 Sum: 2.4659
+Step 3000/30000 MLoss: 1.2654 GLoss: 0.9799 Sum: 2.2453000000000003
+Step 3500/30000 MLoss: 1.1512 GLoss: 0.9799 Sum: 2.1311
+Step 4000/30000 MLoss: 1.0097 GLoss: 0.9758 Sum: 1.9855
+Step 4500/30000 MLoss: 0.907 GLoss: 0.9741 Sum: 1.8811
+Step 5000/30000 MLoss: 0.7982 GLoss: 0.9672 Sum: 1.7654
+Step 5500/30000 MLoss: 0.7614 GLoss: 0.9693 Sum: 1.7307000000000001
+Step 6000/30000 MLoss: 0.6668 GLoss: 0.9623 Sum: 1.6291
+Step 6500/30000 MLoss: 0.6366 GLoss: 0.9585 Sum: 1.5951
+Step 7000/30000 MLoss: 0.6008 GLoss: 0.9541 Sum: 1.5549
+Step 7500/30000 MLoss: 0.574 GLoss: 0.9521 Sum: 1.5261
+Step 8000/30000 MLoss: 0.5497 GLoss: 0.9509 Sum: 1.5006
+Step 8500/30000 MLoss: 0.5175 GLoss: 0.945 Sum: 1.4625
+Step 9000/30000 MLoss: 0.5101 GLoss: 0.9444 Sum: 1.4545
+Step 9500/30000 MLoss: 0.4786 GLoss: 0.9421 Sum: 1.4207
+Step 10000/30000 MLoss: 0.4852 GLoss: 0.9383 Sum: 1.4235
+Step 10500/30000 MLoss: 0.4519 GLoss: 0.9343 Sum: 1.3862
+Step 11000/30000 MLoss: 0.4324 GLoss: 0.9318 Sum: 1.3641999999999999
+Step 11500/30000 MLoss: 0.4276 GLoss: 0.9302 Sum: 1.3578000000000001
+Step 12000/30000 MLoss: 0.427 GLoss: 0.9279 Sum: 1.3549
+Step 12500/30000 MLoss: 0.4164 GLoss: 0.9246 Sum: 1.341
+Step 13000/30000 MLoss: 0.3967 GLoss: 0.9204 Sum: 1.3171
+Step 13500/30000 MLoss: 0.408 GLoss: 0.9197 Sum: 1.3276999999999999
+Step 14000/30000 MLoss: 0.3826 GLoss: 0.917 Sum: 1.2996
+Step 14500/30000 MLoss: 0.3789 GLoss: 0.9139 Sum: 1.2928000000000002
+Step 15000/30000 MLoss: 0.3987 GLoss: 0.9149 Sum: 1.3136
+Step 15500/30000 MLoss: 0.3705 GLoss: 0.9105 Sum: 1.281
+Step 16000/30000 MLoss: 0.3521 GLoss: 0.9097 Sum: 1.2618
+Step 16500/30000 MLoss: 0.3569 GLoss: 0.9043 Sum: 1.2612
+Step 17000/30000 MLoss: 0.3463 GLoss: 0.9042 Sum: 1.2505
+Step 17500/30000 MLoss: 0.3539 GLoss: 0.9015 Sum: 1.2553999999999998
+Step 18000/30000 MLoss: 0.3507 GLoss: 0.8986 Sum: 1.2492999999999999
+Step 18500/30000 MLoss: 0.3414 GLoss: 0.8978 Sum: 1.2392
+Step 19000/30000 MLoss: 0.3388 GLoss: 0.8966 Sum: 1.2353999999999998
+Step 19500/30000 MLoss: 0.3388 GLoss: 0.8948 Sum: 1.2336
+Step 20000/30000 MLoss: 0.3884 GLoss: 0.8989 Sum: 1.2873
+Step 20500/30000 MLoss: 0.3872 GLoss: 0.8946 Sum: 1.2818
+Step 21000/30000 MLoss: 0.3303 GLoss: 0.8913 Sum: 1.2216
+Step 21500/30000 MLoss: 0.3219 GLoss: 0.8899 Sum: 1.2118
+Step 22000/30000 MLoss: 0.3296 GLoss: 0.8881 Sum: 1.2177
+Step 22500/30000 MLoss: 0.3228 GLoss: 0.8883 Sum: 1.2111
+Step 23000/30000 MLoss: 0.3191 GLoss: 0.8862 Sum: 1.2053
+Step 23500/30000 MLoss: 0.3164 GLoss: 0.8857 Sum: 1.2021000000000002
+Step 24000/30000 MLoss: 0.3075 GLoss: 0.8841 Sum: 1.1916
+Step 24500/30000 MLoss: 0.3184 GLoss: 0.8832 Sum: 1.2016
+Step 25000/30000 MLoss: 0.3063 GLoss: 0.8827 Sum: 1.189
+Step 25500/30000 MLoss: 0.3155 GLoss: 0.8811 Sum: 1.1966
+Step 26000/30000 MLoss: 0.3052 GLoss: 0.8816 Sum: 1.1868
+Step 26500/30000 MLoss: 0.3104 GLoss: 0.8797 Sum: 1.1901000000000002
+Step 27000/30000 MLoss: 0.3139 GLoss: 0.8793 Sum: 1.1932
+Step 27500/30000 MLoss: 0.2986 GLoss: 0.8792 Sum: 1.1778
+Step 28000/30000 MLoss: 0.3016 GLoss: 0.8771 Sum: 1.1787
+Step 28500/30000 MLoss: 0.3145 GLoss: 0.8766 Sum: 1.1911
+Step 29000/30000 MLoss: 0.3053 GLoss: 0.8769 Sum: 1.1822
+Step 29500/30000 MLoss: 0.2943 GLoss: 0.8773 Sum: 1.1716
+Step 30000/30000 MLoss: 0.3008 GLoss: 0.8758 Sum: 1.1766
+mlp
+2024-08-19 17:41:31.287954: Remain 348 Samples, max category conditions [33], timestep  9992024-08-19 17:41:31.414286: Remain 348 Samples, max category conditions [33], timestep  9982024-08-19 17:41:32.096931: Remain 348 Samples, max category conditions [33], timestep  9972024-08-19 17:41:32.194819: Remain 348 Samples, max category conditions [33], timestep  9962024-08-19 17:41:32.311442: Remain 348 Samples, max category conditions [33], timestep  9952024-08-19 17:41:32.414884: Remain 348 Samples, max category conditions [33], timestep  9942024-08-19 17:41:32.527010: Remain 348 Samples, max category conditions [33], timestep  9932024-08-19 17:41:32.629553: Remain 348 Samples, max category conditions [33], timestep  9922024-08-19 17:41:32.730141: Remain 348 Samples, max category conditions [33], timestep  9912024-08-19 17:41:32.858341: Remain 348 Samples, max category conditions [33], timestep  9902024-08-19 17:41:32.995960: Remain 348 Samples, max category conditions [33], timestep  9892024-08-19 17:41:33.091560: Remain 348 Samples, max category conditions [33], timestep  9882024-08-19 17:41:33.198930: Remain 348 Samples, max category conditions [33], timestep  9872024-08-19 17:41:33.292036: Remain 348 Samples, max category conditions [33], timestep  9862024-08-19 17:41:33.397997: Remain 348 Samples, max category conditions [33], timestep  9852024-08-19 17:41:33.492517: Remain 348 Samples, max category conditions [33], timestep  9842024-08-19 17:41:33.597076: Remain 348 Samples, max category conditions [33], timestep  9832024-08-19 17:41:33.691661: Remain 348 Samples, max category conditions [33], timestep  9822024-08-19 17:41:33.795258: Remain 348 Samples, max category conditions [33], timestep  9812024-08-19 17:41:33.899851: Remain 348 Samples, max category conditions [33], timestep  9802024-08-19 17:41:34.003006: Remain 348 Samples, max category conditions [33], timestep  9792024-08-19 17:41:34.103441: Remain 348 Samples, max category conditions [33], timestep  9782024-08-19 17:41:34.203380: Remain 348 Samples, max category conditions [33], timestep  9772024-08-19 17:41:34.294737: Remain 348 Samples, max category conditions [33], timestep  9762024-08-19 17:41:34.398818: Remain 348 Samples, max category conditions [33], timestep  9752024-08-19 17:41:34.491490: Remain 348 Samples, max category conditions [33], timestep  9742024-08-19 17:41:34.589331: Remain 348 Samples, max category conditions [33], timestep  9732024-08-19 17:41:34.692327: Remain 348 Samples, max category conditions [33], timestep  9722024-08-19 17:41:34.798646: Remain 348 Samples, max category conditions [33], timestep  9712024-08-19 17:41:34.895851: Remain 348 Samples, max category conditions [33], timestep  9702024-08-19 17:41:34.998800: Remain 348 Samples, max category conditions [33], timestep  9692024-08-19 17:41:35.092815: Remain 348 Samples, max category conditions [33], timestep  9682024-08-19 17:41:35.196712: Remain 348 Samples, max category conditions [33], timestep  9672024-08-19 17:41:35.294835: Remain 348 Samples, max category conditions [33], timestep  9662024-08-19 17:41:35.402077: Remain 348 Samples, max category conditions [33], timestep  9652024-08-19 17:41:35.498555: Remain 348 Samples, max category conditions [33], timestep  9642024-08-19 17:41:35.598517: Remain 348 Samples, max category conditions [33], timestep  9632024-08-19 17:41:35.697555: Remain 348 Samples, max category conditions [33], timestep  9622024-08-19 17:41:35.802224: Remain 348 Samples, max category conditions [33], timestep  9612024-08-19 17:41:35.896916: Remain 348 Samples, max category conditions [33], timestep  9602024-08-19 17:41:35.997414: Remain 348 Samples, max category conditions [33], timestep  9592024-08-19 17:41:36.098544: Remain 348 Samples, max category conditions [33], timestep  9582024-08-19 17:41:36.196886: Remain 348 Samples, max category conditions [33], timestep  9572024-08-19 17:41:36.299380: Remain 348 Samples, max category conditions [33], timestep  9562024-08-19 17:41:36.397147: Remain 348 Samples, max category conditions [33], timestep  9552024-08-19 17:41:36.494648: Remain 348 Samples, max category conditions [33], timestep  9542024-08-19 17:41:36.595038: Remain 348 Samples, max category conditions [33], timestep  9532024-08-19 17:41:36.717229: Remain 348 Samples, max category conditions [33], timestep  952

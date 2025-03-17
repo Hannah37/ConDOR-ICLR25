@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "C:\Users\home\OneDrive - University of North Carolina at Chapel Hill\ICLR25\tab-ddpm\pipeline_iclr25_hyuna.py", line 5, in <module>
+    from scripts.train import train
+  File "C:\Users\home\OneDrive - University of North Carolina at Chapel Hill\ICLR25\tab-ddpm\scripts\train.py", line 2, in <module>
+    import torch
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\__init__.py", line 29, in <module>
+    from .torch_version import __version__ as __version__
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\torch_version.py", line 3, in <module>
+    from pkg_resources import packaging  # type: ignore[attr-defined]
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\pkg_resources\__init__.py", line 96, in <module>
+    from jaraco.text import (
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\setuptools\_vendor\jaraco\text\__init__.py", line 258, in <module>
+    class WordSet(tuple):
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\setuptools\_vendor\jaraco\text\__init__.py", line 312, in WordSet
+    _pattern = re.compile('([A-Z]?[a-z]+)|([A-Z]+(?![a-z]))')
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\re.py", line 252, in compile
+    return _compile(pattern, flags)
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\re.py", line 305, in _compile
+    if not (flags & DEBUG):
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\enum.py", line 980, in __and__
+    return self.__class__(self._value_ & self.__class__(other)._value_)
+KeyboardInterrupt
+^C

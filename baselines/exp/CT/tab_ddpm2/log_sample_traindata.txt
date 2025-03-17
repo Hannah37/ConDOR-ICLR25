@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "C:\Users\home\OneDrive - University of North Carolina at Chapel Hill\ICLR25\tab-ddpm\pipeline_iclr25_hyuna.py", line 5, in <module>
+    from scripts.train import train
+  File "C:\Users\home\OneDrive - University of North Carolina at Chapel Hill\ICLR25\tab-ddpm\scripts\train.py", line 2, in <module>
+    import torch
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\__init__.py", line 721, in <module>
+    import torch.utils.data
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\utils\data\__init__.py", line 38, in <module>
+    from torch.utils.data.dataloader_experimental import DataLoader2
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\utils\data\dataloader_experimental.py", line 11, in <module>
+    from torch.utils.data.datapipes.iter import IterableWrapper
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\utils\data\datapipes\__init__.py", line 1, in <module>
+    from . import iter
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\utils\data\datapipes\iter\__init__.py", line 37, in <module>
+    from torch.utils.data.datapipes.iter.selecting import (
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\torch\utils\data\datapipes\iter\selecting.py", line 7, in <module>
+    import pandas  # type: ignore[import]
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\pandas\__init__.py", line 22, in <module>
+    from pandas.compat import (
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\pandas\compat\__init__.py", line 15, in <module>
+    from pandas.compat.numpy import (
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\pandas\compat\numpy\__init__.py", line 7, in <module>
+    from pandas.util.version import Version
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\site-packages\pandas\util\version\__init__.py", line 109, in <module>
+    [Union[CmpKey, LegacyCmpKey], Union[CmpKey, LegacyCmpKey]], bool
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\typing.py", line 272, in inner
+    return cached(*args, **kwds)
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\typing.py", line 752, in __hash__
+    return hash((self.__origin__, self.__args__))
+  File "C:\Users\home\anaconda3\envs\tddpm\lib\typing.py", line 929, in __hash__
+    return hash(frozenset(self.__args__))
+KeyboardInterrupt
+^C
