@@ -8,8 +8,8 @@ Official code repository of the paper Conditional Diffusion with Ordinal Regress
 
 ## Datasets
 All data required are available through [ADNI](https://adni.loni.usc.edu/) and [OASIS](https://sites.wustl.edu/oasisbrains/).
-To obtain cortical thickness, T1-weighted MR images were parcellated into 148 brain regions based on Destrieux atlas on both datasets, and skull stripping, tissue segmentation, and image registration were performed using Freesurfer.
-Other measures such as Amyloid, FDG, Tau SUVR were calculated from PET scans based on Destrieux atlas, and the cerebellum was used as the reference region to calculate the SUVR for each modality.
+To obtain cortical thickness, T1-weighted MR images were parcellated into 148 brain regions based on the Destrieux atlas on both datasets, and skull stripping, tissue segmentation, and image registration were performed using Freesurfer.
+Other measures such as Amyloid, FDG, and Tau SUVR were calculated from PET scans based on the Destrieux atlas, and the cerebellum was used as the reference region to calculate the SUVR for each modality.
 
 ## Pretrained models
 ConDOR is comprised of two diffusion models: RDM and TDM. These models are trained separately by using separate loss functions $L_\text{RDM}$ and $L_\text{TDM}$, and we provide both of the pretrained RDM and TDM for all experiments (CT, Amyloid, FDG, and Tau) in [this drive](https://drive.google.com/file/d/19RlXMt4QY05MRQeXyO76wO8qpZURO8WJ/view?usp=sharing).
@@ -21,19 +21,19 @@ RDM is trained first followed by TDM. To run RDM from scratch, use the following
 ```
 python main.py --warmup=1
 ```
-To train TDM, set path of the trained RDM in train() of trainer.py.
+To train TDM, set the path of the trained RDM in train() of trainer.py.
 
 ```
 pth = os.path.join('warmup_RDM.pt')
 ```
-Finally, run the following command to train TDM and evaluate the performence of ConDOR (RDM + TDM):
+Finally, run the following command to train TDM and evaluate the performance of ConDOR (RDM + TDM):
 
 ```
 python main.py 
 ```
 
 ## Citation
-If you would like to cite our paper, please use the bibtex below.
+If you would like to cite our paper, please use the BibTeX below.
 
 ```
 @inproceedings{choconditional,
